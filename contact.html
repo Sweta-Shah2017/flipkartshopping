@@ -1,0 +1,270 @@
+<html>
+<head>
+<style>
+*{ margin:0px;
+  padding:0px;
+}
+ 
+ }
+h1{color:aqua;}
+ 
+ #header{
+background-color:skyblue;
+width:100%;
+height:100px;
+}
+    
+
+#container ul{
+list-style:none;
+font-weight:bold;
+font-family:verdana;
+font-size:15px;
+text-transform:uppercase;
+background-color:#333;
+width:100%;
+height:50px;
+margin-top:15px;
+
+}
+#container ul li{
+text-align:center;
+width:200px;
+height:50px;
+background:black;
+position:relative;
+border:2px solid blue;
+float:left;
+line-height:50px;
+opacity:.5px;
+border-radius:15px;
+transition:all 1s ease-in;
+}
+#container ul li a{
+transition:all 1s ease-in;
+transform:scale:(.3);
+color:red;
+display:block;
+text-decoration:none;
+}
+
+#container ul li a:hover{
+background-color:blue;
+opacity:.3px;
+border-radius:15px;
+}
+#container ul ul{
+display:none;
+position:absolute;
+margin-top:1px;
+}
+
+#container ul li:hover>ul{
+display:block;}
+#container ul ul ul li{
+margin-left:200px;
+
+}
+#search input[name="sea"]{
+maargin-left:15px;
+border-radius:5px;
+font-weight:bold;
+border:2px solid blue;
+line-height:30px;
+height:30px;
+text-align:center;
+background-color:#ddd;
+color:red;
+margin-top:10px;
+}
+#search input[name="reg"]{
+font-size:15px;
+border-radius:10px;
+border:2px solid orange ;
+color:white;
+background-color:orange;	
+}
+#search input[name="reg"]:hover
+{
+font-size:15px;
+border-radius:10px;
+border:2px solid red;
+color:white;
+background-color:blue;	
+}
+
+
+h3{color:red;}
+p{color:white;}
+h1{color:blue;}
+
+
+
+    #topback{
+        background:url(reg.png);
+        background-size:cover;
+        margin-top: auto;
+        width: 100%;
+height:100%;
+    }
+    #contact{background:grey;
+    margin-left:0%;
+       
+    margin-right:30%;
+
+    position:absolute;
+    border: 22px solid black;
+    width:100%;
+    opacity:1.0;}
+
+    #contact input{
+        text-align:center;
+    
+        font-weight:bold;
+    }
+    #contact input[name="text"]{
+        width:500px;
+        height:50px;
+        border-radius: 10px;
+        border:2px solid blue;
+    }
+     #contact input[name="pass"]{
+          width:500px;
+        height:50px;
+        border-radius: 10px;
+        border:2px solid blue;
+    }
+    #contact input[name="subject"]{
+          width:500px;
+        height:200px;
+        border-radius: 10px;
+        border:2px solid blue;
+        margin-top: 10px;
+    }
+    
+     #contact input[value="gen"]{
+          width:50px;
+        height:20px;
+        border-radius: 10px;
+        border:2px solid blue;
+        margin-top: 10px;
+    }
+    #contact input[name="phone"]{
+          width:250px;
+        height:40px;
+        border-radius: 5px;
+        border:2px solid blue;
+        margin-top: 10px;
+    }
+    
+    #contact input[name="sub"]{
+          width:50px;
+        height:50px;
+        border-radius: 10px;
+        border:2px solid blue;
+        margin-top: 10px;
+        background: black;
+        color: white;
+    }
+    #contact input[name="sub"]:hover{background:blue;
+    color:white;
+        border:2px solid blue;
+cursor:pointer;
+        overflow:hidden;
+    }
+     
+    
+</style>
+</head>
+<body>
+<div id="header">
+<center><h1> <span style="color:red">F</span>
+<span style="color:blue">L</span>
+<span style="color:yellow">I<span>
+<span style="color:green">P</span>
+<span style="color:blue">K</span>
+<span style="color:red">A</span>
+<span style="color:yellow">R</span>
+<span style="color:blue">T </span><br>
+<font color="black">online shopping</h1></center>
+<h1><marquee bgcolor="red"><font color="blue"> WELCOME TO ONLINE SHOPPING</marquee></h1>
+</div>
+<div id="container">
+<form>
+<table>
+<ul>
+<li><a href="#"> Offers</a></li>
+<li><a href="#"> Fashion</a>
+<ul>
+    <li><a href="#">Indian</a>
+    <ul>
+      <li><a href="#">saree</a></li>
+      <li> <a href="#">lehenga</a></li>
+   </ul>
+    <li> <a href="facebook.html">Western</a></li>
+    <li><a href="#">Bags</a></li>
+    <li><a href="#">Shoes</a>
+      <ul>
+      <li><a href="#">saree</a></li>
+      <li> <a href="#">lehenga</a></li>
+     </ul>
+</li>
+</ul>
+</li>
+<li> <a href="#">Electronics</a>
+<ul>
+    <li><a href="mobile.html">Mobile</a></li>
+    <li><a href="#">Laptop</a></li>
+    <li><a href="#">Dryer</a></li>
+    <li><a href="#">Desktop pc</a></li>
+</ul>
+</li>
+<li><a href="#"> Home</a>
+<ul>
+    <li><a href="#">Rice cooker</a></li>
+    <li><a href="#"> Induction</a></li>
+    <li><a href="#"> Boiler</a></li>
+    <li> <a href="#">Fry pan</a></li>
+</ul>
+</li>
+<li> <a href="#">More</a>
+   <ul>
+    <li><a href="#"> home furniture</a></li>
+    <li> <a href="#">Tv appliances</a></li>
+    <li> <a href="#">Books</a></li>
+    <li><a href=""> offers</a></li>
+</ul>
+</li>
+<div id="search">
+<input type="search" placeholder="search" name="sea" size="30">
+<input type="button" value="search" name="reg" size="30"> 
+</div>
+    </ul>
+    </div>
+    
+    <div id="topback"> </div>
+ <div id="contact">
+     <center>
+ <form>
+<h3>ENTER THE NAME </h3>
+<input type="text" placeholder="NAME" name="text">
+<h3>EMAIL</h3> 
+<input type="text" placeholder="EMAIL" name="text">
+<h3>PASSWORD</h3>
+<input type="password" placeholder="PASSWORD" name="pass"><br>
+<input type="text" placeholder="SUBJECT" name="subject">
+<h3>GENDER:</h3>
+<input type="radio" name="male" value="gen">MALE
+<input type="radio" name="female" value="gen">FEMALE
+<h3>PHONE-NO</h3>
+<input type="text" placeholder="phone-no" name="phone"><br>
+<input type="submit" value="submit" name="sub">
+ </form>
+     </center>
+</div>
+    
+</body>
+</html>
+
+
+
